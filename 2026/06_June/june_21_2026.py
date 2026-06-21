@@ -19,7 +19,7 @@ class Solution:
 
 
 
-# c++ implementation
+# C++ implementation
 
 class Solution {
 public:
@@ -37,3 +37,19 @@ public:
         
     }
 };
+
+
+#Go Implementation
+
+func maxIceCream(costs []int, coins int) int {
+    slices.Sort(costs)
+    count:=0
+    for _, cost := range costs{
+        if cost<=coins{
+            coins-=cost
+            count+=1
+        }
+    }
+    return count
+    
+}
