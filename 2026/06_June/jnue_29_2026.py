@@ -1,0 +1,13 @@
+# 1967. Number of Strings That Appear as Substrings in Word
+
+
+
+class Solution:
+    def numOfStrings(self, patterns: List[str], word: str) -> int:
+        count=0
+        for s in patterns:
+            if s in word:
+                count+=1
+        
+        return count
+        
