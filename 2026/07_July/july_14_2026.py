@@ -59,3 +59,34 @@ class Solution:
                     res += mu[j] * mu[k] * dp[j * i][k * i]
 
         return (res % MOD + MOD) % MOD
+
+
+
+
+
+
+
+
+
+from functools import cache
+import math
+
+class Solution:
+    def subsequencePairCount(self, nums: list[int]) -> int:
+        MOD = 10**9 + 7
+        
+        @cache
+        def dp(i: int, gcd1: int, gcd2: int) -> int:
+           
+            if i == len(nums):
+                return 1 if (gcd1 > 0 and gcd1 == gcd2) else 0
+
+            res = dp(i + 1, gcd1, gcd2)
+
+            res = (res + dp(i + 1, math.gcd(gcd1, nums[i]), gcd2)) % MOD
+
+            res = (res + dp(i + 1, gcd1, math.gcd(gcd2, nums[i]))) % MOD
+            
+            return res
+            
+        return dp(0, 0, 0)
