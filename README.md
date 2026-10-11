@@ -18,7 +18,7 @@
 
 Welcome to my **LeetCode Problem of the Day (POTD)** repository! 🎉 
 
-Starting from **June 9, 2026**, this repository serves as my daily coding journal. It’s not just a dump of raw code; it is a carefully curated collection of optimal solutions designed to help both me and you understand the *how* and *why* behind complex algorithms.
+Starting from **11 October, 2026**, this repository serves as my daily coding journal. It’s not just a dump of raw code; it is a carefully curated collection of optimal solutions designed to help both me and you understand the *how* and *why* behind complex algorithms.
 
 Whether you are preparing for FAANG interviews, brushing up on your data structures, or just love a good daily puzzle, you've found the right place! 💡
 
@@ -41,11 +41,11 @@ The repository is neatly organized by **Year and Month** so you can easily navig
 ```text
 📦 LeetCode_POTD
  ┣ 📂 2026
- ┃ ┣ 📂 06_June
+ ┃ ┣ 📂 Sep
  ┃ ┃ ┣ 📜 09_Subarray_Sums_Divisible_by_K.py
  ┃ ┃ ┣ 📜 10_Height_Checker.py
  ┃ ┃ ┗ 📜 ...
- ┃ ┣ 📂 07_July
+ ┃ ┣ 📂 Oct
  ┃ ┃ ┗ 📜 ...
  ┣ 📜 README.md
  ┗ 📜 .gitignore
