@@ -41,11 +41,11 @@ The repository is neatly organized by **Year and Month** so you can easily navig
 ```text
 📦 LeetCode_POTD
  ┣ 📂 2026
- ┃ ┣ 📂 Sep
+ ┃ ┣ 📂 Oct
  ┃ ┃ ┣ 📜 09_Subarray_Sums_Divisible_by_K.py
  ┃ ┃ ┣ 📜 10_Height_Checker.py
  ┃ ┃ ┗ 📜 ...
- ┃ ┣ 📂 Oct
+ ┃ ┣ 📂 Nov
  ┃ ┃ ┗ 📜 ...
  ┣ 📜 README.md
  ┗ 📜 .gitignore
